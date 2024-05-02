@@ -1,0 +1,86 @@
+@import "./partials/reset";
+@import "./partials/font";
+@import "./partials/colors";
+@import "./partials/buttons";
+@import "./partials/mixin";
+@import "./partials/spacing";
+
+body{
+    width: 100%;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    ul{
+        display: flex;
+        list-style: none;
+        li a{
+            text-decoration: none;
+        }
+    }
+}
+
+.colore-testo{
+    color: $colore-testo;
+}
+
+.bg-hero{
+    background-color: $bg-hero;
+}
+
+.font{
+    font-family: $font ;
+}
+
+section{
+    display: flex;
+    h1{
+        @include title-big;
+        margin-bottom: 0;
+    }
+    h3{
+        color: $colore-testo
+    }
+    img{
+        @include floating;
+        position: relative;
+        top: 110px;
+    }    
+}
+
+.btn-blu{
+    @include butt;
+}
+.btn-giallo{
+    @include butt;
+}
+.btn-verde{
+    @include butt;
+}
+
+main{
+    margin: 6em 0;
+    display: flex;
+    justify-content: space-evenly;
+    img{
+        @include floating;
+        border: none;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 1s ease-in-out forwards;
+  }
+
+  @keyframes fadeInAnimation {
+    from {
+        top:200px;
+      opacity: 0;
+    }
+    to {
+        top:110px;
+      opacity: 1;
+    }
+  }
