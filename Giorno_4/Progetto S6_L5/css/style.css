@@ -32,6 +32,25 @@
     border: 2px solid white;
 }
 
+.row {
+    overflow: visible;
+}
+
+.row .col-lg-2 img {
+    position: relative;
+}
+
+.row:hover .col-lg-2:not(:hover) img {
+    transform: scale(0.9);
+    opacity: 0.2;
+    transition: transform 250ms, opacity 250ms;
+}
+
+.row .col-lg-2 img:hover {
+    transform: scale(1.2);
+    transition: transform 250ms;
+}
+
 @media screen and (min-width:992px){
     #btn-car{
         width: 5%;
