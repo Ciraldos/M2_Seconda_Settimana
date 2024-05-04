@@ -16,8 +16,8 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body class="bg_netflix">
-    <header class="bg_netflix w-100">
+  <body class="bg-netflix">
+    <header class="bg-netflix fixed-top px-4 w-100">
         <div class="row">
       <nav class="navbar navbar-expand-lg p-0">
         <div class="container-fluid col-12">
@@ -41,7 +41,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-4 ps-lg-0">
               <li class="nav-item">
                 <a
                   class="nav-link active text-light"
@@ -64,7 +64,7 @@
               </li>
             </ul>
             <div
-              class="list-unstyled dropdown-toggle text-white d-md-flex d-none justify-content-start align-items-center "
+              class="list-unstyled dropdown-toggle text-white d-lg-flex d-none justify-content-start align-items-center "
             >
               <li class="nav-item m-3">
                 <a href="#"><i class="bi bi-search text-white"></i></a>
@@ -91,11 +91,11 @@
                 />
 
                 <ul
-                  class="dropdown-menu bg_netflix dropdown-menu-lg-end"
+                  class="dropdown-menu bg-netflix dropdown-menu-lg-end"
                   aria-labelledby="navbarDropdown"
                 >
                   <li>
-                    <a class="dropdown-item text-white" href="#">Profile</a>
+                    <a class="dropdown-item text-white" href="./profile.html">Profile</a>
                   </li>
                   <li>
                     <a class="dropdown-item text-white" href="#">Settings</a>
@@ -109,16 +109,16 @@
             </div>
           </div>
         </div>
-        </div>
       </nav>
+      </div>
     </header>
-    <main class="px-4 mt-4">
+    <main class="px-4">
       <div class="d-flex justify-content-between align-items-center">
         <div class="d-flex">
           <h2 class="text-white me-4">TV Shows</h2>
           <div class="dropdown">
             <button
-              class="btn bg_drop dropdown-toggle"
+              class="btn bg-drop dropdown-toggle"
               type="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"             
@@ -126,7 +126,7 @@
             >
               Genres
             </button>
-            <ul class="dropdown-menu bg_drop">
+            <ul class="dropdown-menu bg-drop">
               <li><a class="dropdown-item text-white" href="#">Action</a></li>
               <li><a class="dropdown-item text-white href="#">Adventure</a></li>
               <li><a class="dropdown-item text-white" href="#">Drama</a></li>
@@ -134,8 +134,8 @@
           </div>
         </div>
         <div id="icons" class="d-flex">
-            <i class="bi bi-list text-white py-2 px-3"></i>
-            <i class="bi bi-grid-fill text-white py-2 px-3"></i>
+            <i class="bi bi-list text-white py-2 px-3 cursor-pointer"></i>
+            <i class="bi bi-grid-fill text-white py-2 px-3 cursor-pointer"></i>
         </div>
       </div>
       <section class="mt-4">
@@ -144,67 +144,67 @@
           <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <div class="row">
-                  <div class="col-lg-2">
+                <div class="row g-1">
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media0.webp" class="w-100" alt="show">
                   </div>
-                  <div class="col-lg-2">
+                  <div class="d-none d-sm-block col-12 col-sm-6 col-md-4 col-lg-2">
                   <img src="./assets/media/media1.jpg" class="w-100" alt="show">
                   </div>
-                  <div class="col-lg-2">
+                  <div class="d-none d-md-block col-12 col-sm-6 col-md-4 col-lg-2">
                   <img src="./assets/media/media2.webp" class="w-100" alt="show">
                   </div>
-                  <div class="col-lg-2">
+                  <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                   <img src="./assets/media/media3.webp" class="w-100" alt="show">
                   </div>
-                  <div class="col-lg-2">
+                  <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media4.jpg" class="w-100" alt="show">
                     </div>
-                    <div class="col-lg-2">
+                    <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media5.webp" class="w-100" alt="show">
                     </div>
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="row">
-                  <div class="col-lg-2">
+                <div class="row g-1">
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                   <img src="./assets/media/media6.jpg" class="w-100" alt="show">
                   </div>
-                  <div class="col-lg-2">
+                  <div class="d-none d-sm-block col-12 col-sm-6 col-md-4 col-lg-2">
                   <img src="./assets/media/media7.webp" class="w-100" alt="show">
                   </div>
-                  <div class="col-lg-2">
+                  <div class="d-none d-md-block col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media8.webp" class="w-100" alt="show">
                     </div>
-                    <div class="col-lg-2">
+                    <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media9.jpg" class="w-100" alt="show">
                     </div>
-                    <div class="col-lg-2">
+                    <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media10.jpg" class="w-100" alt="show">
                     </div>
-                    <div class="col-lg-2">
+                    <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media11.jpg" class="w-100" alt="show">
                     </div> 
               </div>
             </div>
               <div class="carousel-item">
-                <div class="row">
-                  <div class="col-lg-2">
+                <div class="row g-1">
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media12.jpg" class="w-100" alt="show">
                     </div>
-                    <div class="col-lg-2">
+                    <div class="d-none d-sm-block col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media13.jpg" class="w-100" alt="show">
                     </div>
-                    <div class="col-lg-2">
+                    <div class="d-none d-md-block col-12 col-sm-6 col-md-4 col-lg-2">
                       <img src="./assets/media/media14.webp" class="w-100" alt="show">
                       </div>
-                      <div class="col-lg-2">
+                      <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                       <img src="./assets/media/media15.jpg" class="w-100" alt="show">
                       </div>
-                      <div class="col-lg-2">
+                      <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                       <img src="./assets/media/media16.webp" class="w-100" alt="show">
                       </div>
-                      <div class="col-lg-2">
+                      <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                       <img src="./assets/media/media17.jpg" class="w-100" alt="show">
                       </div> 
               </div>
@@ -227,67 +227,67 @@
           <div id="carouselExample2" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <div class="row">
-                  <div class="col-lg-2">
+                <div class="row g-1">
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media18.jpg" class="w-100" alt="show">
                   </div>
-                  <div class="col-lg-2">
+                  <div class="d-none d-sm-block col-12 col-sm-6 col-md-4 col-lg-2">
                   <img src="./assets/media/media19.webp" class="w-100" alt="show">
                   </div>
-                  <div class="col-lg-2">
+                  <div class="d-none d-md-block col-12 col-sm-6 col-md-4 col-lg-2">
                   <img src="./assets/media/media20.jpg" class="w-100" alt="show">
                   </div>
-                  <div class="col-lg-2">
+                  <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                   <img src="./assets/media/media21.webp" class="w-100" alt="show">
                   </div>
-                  <div class="col-lg-2">
+                  <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media22.webp" class="w-100" alt="show">
                     </div>
-                    <div class="col-lg-2">
+                    <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media23.webp" class="w-100" alt="show">
                     </div>
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="row">
-                  <div class="col-lg-2">
+                <div class="row g-1">
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                   <img src="./assets/media/media24.jpg" class="w-100" alt="show">
                   </div>
-                  <div class="col-lg-2">
+                  <div class="d-none d-sm-block col-12 col-sm-6 col-md-4 col-lg-2">
                   <img src="./assets/media/media25.webp" class="w-100" alt="show">
                   </div>
-                  <div class="col-lg-2">
+                  <div class="d-none d-md-block col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media26.webp" class="w-100" alt="show">
                     </div>
-                    <div class="col-lg-2">
+                    <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media27.jpg" class="w-100" alt="show">
                     </div>
-                    <div class="col-lg-2">
+                    <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media28.jpg" class="w-100" alt="show">
                     </div>
-                    <div class="col-lg-2">
+                    <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media29.jpg" class="w-100" alt="show">
                     </div> 
               </div>
             </div>
               <div class="carousel-item">
-                <div class="row">
-                  <div class="col-lg-2">
+                <div class="row g-1">
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media30.jpg" class="w-100" alt="show">
                     </div>
-                    <div class="col-lg-2">
+                    <div class="d-none d-sm-block col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media31.webp" class="w-100" alt="show">
                     </div>
-                    <div class="col-lg-2">
+                    <div class="d-none d-md-block col-12 col-sm-6 col-md-4 col-lg-2">
                       <img src="./assets/media/media32.jpg" class="w-100" alt="show">
                       </div>
-                      <div class="col-lg-2">
+                      <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                       <img src="./assets/media/media1.jpg" class="w-100" alt="show">
                       </div>
-                      <div class="col-lg-2">
+                      <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                       <img src="./assets/media/media6.jpg" class="w-100" alt="show">
                       </div>
-                      <div class="col-lg-2">
+                      <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                       <img src="./assets/media/media2.webp" class="w-100" alt="show">
                       </div> 
               </div>
@@ -310,67 +310,67 @@
           <div id="carouselExample3" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <div class="row">
-                  <div class="col-lg-2">
+                <div class="row g-1">
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media20.jpg" class="w-100" alt="show">
                   </div>
-                  <div class="col-lg-2">
+                  <div class="d-none d-sm-block col-12 col-sm-6 col-md-4 col-lg-2">
                   <img src="./assets/media/media11.jpg" class="w-100" alt="show">
                   </div>
-                  <div class="col-lg-2">
+                  <div class="d-none d-md-block col-12 col-sm-6 col-md-4 col-lg-2">
                   <img src="./assets/media/media23.webp" class="w-100" alt="show">
                   </div>
-                  <div class="col-lg-2">
+                  <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                   <img src="./assets/media/media5.webp" class="w-100" alt="show">
                   </div>
-                  <div class="col-lg-2">
+                  <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media1.jpg" class="w-100" alt="show">
                     </div>
-                    <div class="col-lg-2">
+                    <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media30.jpg" class="w-100" alt="show">
                     </div>
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="row">
-                  <div class="col-lg-2">
+                <div class="row g-1">
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                   <img src="./assets/media/media9.jpg" class="w-100" alt="show">
                   </div>
-                  <div class="col-lg-2">
+                  <div class="d-none d-sm-block col-12 col-sm-6 col-md-4 col-lg-2">
                   <img src="./assets/media/media7.webp" class="w-100" alt="show">
                   </div>
-                  <div class="col-lg-2">
+                  <div class="d-none d-md-block col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media28.jpg" class="w-100" alt="show">
                     </div>
-                    <div class="col-lg-2">
+                    <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media19.webp" class="w-100" alt="show">
                     </div>
-                    <div class="col-lg-2">
+                    <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media10.jpg" class="w-100" alt="show">
                     </div>
-                    <div class="col-lg-2">
+                    <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media3.webp" class="w-100" alt="show">
                     </div> 
               </div>
             </div>
               <div class="carousel-item">
-                <div class="row">
-                  <div class="col-lg-2">
+                <div class="row g-1">
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media12.jpg" class="w-100" alt="show">
                     </div>
-                    <div class="col-lg-2">
+                    <div class="d-none d-sm-block col-12 col-sm-6 col-md-4 col-lg-2">
                     <img src="./assets/media/media6.jpg" class="w-100" alt="show">
                     </div>
-                    <div class="col-lg-2">
+                    <div class="d-none d-md-block col-12 col-sm-6 col-md-4 col-lg-2">
                       <img src="./assets/media/media14.webp" class="w-100" alt="show">
                       </div>
-                      <div class="col-lg-2">
+                      <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                       <img src="./assets/media/media31.webp" class="w-100" alt="show">
                       </div>
-                      <div class="col-lg-2">
+                      <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                       <img src="./assets/media/media21.webp" class="w-100" alt="show">
                       </div>
-                      <div class="col-lg-2">
+                      <div class="d-none d-lg-block col-12 col-sm-6 col-md-4 col-lg-2">
                       <img src="./assets/media/media4.jpg" class="w-100" alt="show">
                       </div> 
               </div>
@@ -391,14 +391,14 @@
     <footer>
       <div class="container mt-5">
           <div class="row">
-              <div class="col-1"></div>
+              <div class="col-2"></div>
               <div class="col-10">
                   <div class="row mb-4">
                       <div class="col">
-                          <i class="bi bi-facebook text-white hover-i pe-2 fs-3"></i>
-                          <i class=" bi bi-instagram text-white hover-i px-2 fs-3"></i>
-                          <i class="bi bi-twitter-x text-white hover-i px-2 fs-3"></i>
-                          <i class="bi bi-youtube text-white hover-i px-2 fs-3"></i>
+                          <a href="https://www.facebook.com"><i class="bi bi-facebook text-white hover-i pe-2 fs-3"></i></a>
+                          <a href="https://www.instagram.com"><i class=" bi bi-instagram text-white hover-i px-2 fs-3"></i></a>
+                          <a href="https://www.twitter.com"><i class="bi bi-twitter-x text-white hover-i px-2 fs-3"></i></a>
+                          <a href="https://www.youtube.com"><i class="bi bi-youtube text-white hover-i px-2 fs-3"></i></a>
                       </div>
                   </div>
                   <div class="row mb-2">
@@ -420,25 +420,21 @@
                       <div class="col-3 col-lg-3 text-white"><a href="#" class="text-decoration-none text-white">Coroporate Information</a></div>
                   </div>
                   <div class="row mb-3">
-
-                      <div class="col text-white"><a href="#" class="text-white text-decoration-none">Contact
-                              Us</a></div>
+                      <div class="col text-white">
+                        <a href="#" class="text-white text-decoration-none">Contact Us</a>
+                      </div>
                   </div>
-                  <div class="row mb-2 text-white border-1 ">
-
+                  <div class="row mb-2 text-white border-1">
                       <div class="col">
-                        <button type="button"
-                              class="btn btn-outline-secondary text-white fsm-personal mb-2" id="button-service">
+                        <button type="button"class="btn btn-outline-secondary text-white fsm-personal mb-2" id="button-service">
                               Service Code
                           </button>
                         </div>
                   </div>
                   <div class="row text-white mb-1 fxs-personal">
-
                       <div class="col">&copy;1997-2019 Netflix Inc.{i-0d00fcda2df9c0de}</div>
                   </div>
               </div>
-
           </div>
       </div>
   </footer>

@@ -1,13 +1,22 @@
-.bg_netflix{
+.bg-netflix{
     background-color:#1B1B1B;
 }
 
+.bg-item{
+    background-color:#414141;
+}
+.text-item{
+    color: #414141
+}
 
+main{
+    margin-top: 6em;
+}
 .dropdown-item:hover {
     background-color: #4b4b4b;
 }
 
-.bg_drop{
+.bg-drop{
     background-color: black;
     color: white;
 }
@@ -17,6 +26,10 @@
     border-radius: 0;
     background-color: black;
     color: white;
+}
+
+.cursor-pointer{
+    cursor: pointer;
 }
 
 #icons i{
@@ -41,18 +54,31 @@
 }
 
 .row:hover .col-lg-2:not(:hover) img {
-    transform: scale(0.9);
+    transform: scale(0.8);
     opacity: 0.2;
     transition: transform 250ms, opacity 250ms;
 }
 
 .row .col-lg-2 img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: transform 250ms;
+    cursor: pointer;
 }
 
 @media screen and (min-width:992px){
     #btn-car{
         width: 5%;
     }
+}
+
+/* Pagina Profilo */
+
+#flexCheckDefault:checked{
+    background-color: #1B1B1B;
+    box-shadow: none;
+}
+
+#three-but:hover{
+    background-color: white;
+    color:#6c757d;
 }
