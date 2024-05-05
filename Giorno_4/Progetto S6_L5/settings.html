@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Netflix Settings</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="bg-netflix fixed-top px-4 w-100">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg p-0">
+          <div class="container-fluid col-12">
+            <a href="./netflix_home.html">
+              <img
+                src="./assets/netflix_logo.png"
+                alt="logo"
+                height="60"
+                class="me-4"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-4 ps-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-light"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">TV Shows</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">Movies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">Recently Added</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">My List</a>
+                </li>
+              </ul>
+              <div
+                class="list-unstyled dropdown-toggle text-white d-lg-flex d-none justify-content-start align-items-center"
+              >
+                <li class="nav-item m-3">
+                  <a href="#"><i class="bi bi-search text-white"></i></a>
+                </li>
+                <li class="nav-item m-3">
+                  <a class="nav-link text-light" href="#">KIDS</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a href="#"
+                    ><i class="bi bi-bell-fill text-white" href="#"></i
+                  ></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <img
+                    src="./assets/kids_icon.png"
+                    class="nav-link pe-1 dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    height="30px"
+                  />
+
+                  <ul
+                    class="dropdown-menu bg-netflix dropdown-menu-lg-end"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <li>
+                      <a class="dropdown-item text-white" href="./profile.html"
+                        >Profile</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-white" href="#">Settings</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item text-white" href="#">Log Out</a>
+                    </li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8">
+            <div class="row pb-4">
+              <div class="col-12">
+                <h1 class="display-6 fw-semibold">Account</h1>
+                <hr />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4">
+                <h5 class="text-secondary">MEMBERSHIP & BILLING</h5>
+                <button class="btn rounded-0 text-bg-light">
+                  Cancel Membership
+                </button>
+              </div>
+              <div class="col-8">
+                <div class="row">
+                  <div class="col-12 d-flex justify-content-between">
+                    <p class="text-dark fw-semibold">student@strive.school</p>
+                    <a href="#" class="text-info text-decoration-none">
+                      Change account email</a
+                    >
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 d-flex justify-content-between">
+                    <p class="text-secondary">Password: ********</p>
+                    <a href="#" class="text-info text-decoration-none">
+                      Change password</a
+                    >
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 d-flex justify-content-between">
+                    <p class="text-secondary">Phone: 321 044 1279</p>
+                    <a href="#" class="text-info text-decoration-none">
+                      Change phone number</a
+                    >
+                  </div>
+                </div>
+                <hr />
+                <div class="row">
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-2">
+                        <img src="./assets/ppcom.svg" height="18""
+                        alt="paypal_logo" />
+                      </div>
+                      <div class="col-10">
+                        <div class="d-flex justify-content-between">
+                          <p class="text-dark fw-semibold">
+                            student@strive.school
+                          </p>
+                          <a href="#" class="text-info text-decoration-none">
+                            Change account email</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-end">
+                        <a href="#" class="text-info text-decoration-none">
+                          Billing details</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div class="row">
+                  <div class="col-12">
+                    <div class="row mb-3">
+                      <div class="col-12 d-flex justify-content-end">
+                        <a href="#" class="text-info text-decoration-none">
+                          Redeem gift card or promo code</a
+                        >
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 d-flex justify-content-end">
+                        <a href="#" class="text-info text-decoration-none">
+                          Where to buy gift cards</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-4">
+                    <h5 class="text-secondary">PLAIN DETAILS</h5>
+                  </div>
+                  <div class="col-8">
+                    <div class="d-flex align-items-baseline">
+                      <p class="text-dark me-2 fw-semibold">Premium</p>
+                      <img
+                        src="./assets/4K-UHD-Logo.svg"
+                        alt="logo"
+                        height="10"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
